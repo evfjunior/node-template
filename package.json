@@ -20,5 +20,11 @@
     "template"
   ],
   "main": "dist/main.js",
-  "scripts": {}
+  "scripts": {
+    "format:check": "prettier --check src",
+    "format:fix": "prettier --write src"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
 }
