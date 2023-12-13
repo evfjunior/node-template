@@ -9,6 +9,7 @@
     /* Modules */
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "types": ["vitest/globals"],
     "rootDir": ".",
     "outDir": "dist",
     "resolveJsonModule": true,
