@@ -1,3 +1,7 @@
+import { config } from 'dotenv'
+
+config()
+
 export function greet() {
   return 'hello world!'
 }
